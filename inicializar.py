@@ -30,5 +30,6 @@ def leerCinta():
     with open("Fn.txt", "r") as f:
         string = f.readline().strip()
         tape = Cinta(string)
+        print("Cadena ingresada: ", string)
 
     return tape
